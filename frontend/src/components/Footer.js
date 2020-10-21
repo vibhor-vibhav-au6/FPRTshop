@@ -5,10 +5,9 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-        <Row>
-          <Col className='text-center py-3'>&copy; FPRTshop by Vibhor @ www.vibhorvibhav.com</Col>
+        <Row bg='dark' variant='dark' className=''>          
+          <Col  className='text-center py-3'>&copy; FPRTstore by Vibhor</Col>
         </Row>
-
       </Container>
     </footer>
   )
