@@ -2,9 +2,6 @@
 
 
 ### Env Variables
-
-
-
 ```
 NODE_ENV = development
 PORT = 5000
@@ -13,12 +10,6 @@ JWT_SECRET = 'abc123'
 PAYPAL_CLIENT_ID = your paypal client id
 ```
 
-
-```
-
-### Run
-
-```
 # Run frontend (:3000) & backend (:5000)
 npm run dev
 
@@ -26,11 +17,8 @@ npm run dev
 npm run server
 ```
 
-
-
-
 ```
-Sample User Logins
+# Sample User Logins
 
 admin@example.com (Admin)
 123456
@@ -41,4 +29,3 @@ john@example.com (Customer)
 jane@example.com (Customer)
 123456
 ```
-
